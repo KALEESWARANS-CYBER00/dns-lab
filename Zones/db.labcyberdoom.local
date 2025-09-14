@@ -1,0 +1,12 @@
+$TTL 3600
+@   IN  SOA ns1.labcyberdoom.local. admin.labcyberdoom.local. (
+        2025091401 ; Serial
+        3600       ; Refresh
+        1800       ; Retry
+        1209600    ; Expire
+        3600 )     ; Minimum TTL
+    IN  NS  ns1.labcyberdoom.local.
+ns1 IN  A   172.25.0.10
+www IN  A   172.25.0.11
+mail IN  A   172.25.0.12
+blog IN  CNAME www.labcyberdoom.local.
